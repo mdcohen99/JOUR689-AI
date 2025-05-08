@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide to using AI in the newsroom</title>
+
+    <!--Bootstrap call-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Guide to AI use in the newsroom</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Link 2</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+
+
+
+        <img class="hed-image" src="https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/VI3SUTAENNFURAXXKQ764HJRZE.jpg">
+        <p class="headline">AL.com: A newsroom guide to using AI</p>
+
+        <p class="subhead">Introduction</p>
+        <p>AL.com is a statewide newspaper based in Birmingham, Alabama. Formerly known as The Birmingham News in both print and digital format, the publicaiton acquired several local outlets including in Huntsville and Mobile before merging together in AL.com, a digital only format. AL.com is owned by Advance Local, a parent company which also includes The Oregonian, Mass Live, NJ.com and Cleveland.com among other outlets. I, Matt Cohen, the writer of this guide, was formely a reporter at AL.com from August 2023-June 2024. Over that academic year, I covered Auburn University athletics as one of two beat writers. During my time at the publication, I saw </p>
+
+
+
+     
+        <p class="chapter">Using AI to improve photo galleries</p>
+        <p>AI 
+
+        <p>But we must pay attention to the result we are getting. The custom GPT with uploaded images struggled consistently to return the correct photo. Here, the GPT was asked to return an image of an empty arena. It gave back a photo of a football stadium — i.e. not an arena — that very much had people in it</p>
+        <br>
+
+        <div class="simple-video-container">
+            <video width="100%" controls autoplay muted loop playsinline>
+                <source src="chatgptfails.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <p>Instead, we go to Gemini here. Gemini has been trained on images because of its integration with Google products like Google Images and YouTube. It will find much more success in parsing through images. This serves as a reminder that not every LLM is the best at each individual task. We can tailor our own use of AI to make life simple: pick the platform that works best for what we need. Gemini doesn't allow us to create our own custom GPT the way OpenAI's product allows. For the sake of this test, we have given Gemini the images via a prompt to begin the conversation. The prompt explains to Gemini that it is going to be working at a newspaper parsing through photos without metadata in order to find the best image for a certain request. It is a very similar instruction to what was given to the custom GPT within its programming. This actual test may not be as applicable given Gemini's platform and the lack of an API key to plug directly into AL.com's interface, but use this test as an example for which to extrapolate possible uses natively on the AL.com CMS pages.</p>
+
+        <p>Here, Gemini is given the exact same photos that the custom GPT was given as well as the exact same promopt: "Using your photo gallery, find me an image of an empty arena".</p>
+
+        <p>The winner is pretty obvious</p>
+
+        <div class="simple-video-container">
+          <video width="100%" controls autoplay muted loop playsinline>
+              <source src="TBD" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+        
+
+   
+
+
+
+
+
+     
+    
+<br>
+<br>
+      </div>
+
+      <footer>
+        <div class="footer-text">Footer Text</div>
+        <div class="footer-text">Copyright 2024 Philip Merrill College of Journalism</div>
+      </footer>
+
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtnI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+     <script src="javascript.js"></script>
+</body>
+</html>
